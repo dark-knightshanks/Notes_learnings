@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "faa8db04b5c34f5b",
+            "id": "4bda61994a72f1db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kernel image and mini-uart.md",
+                "file": "SPI (Serial Peripheral Interface).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kernel image and mini-uart"
+              "title": "SPI (Serial Peripheral Interface)"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Notes",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,10 +169,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "faa8db04b5c34f5b",
+  "active": "4bda61994a72f1db",
   "lastOpenFiles": [
-    "s-matyukevich.github.io/raspberry-pi-os/docs/lesson01/rpi-os.html.md",
+    "Pasted image 20250723121404.png",
+    "Pasted image 20250723121348.png",
+    "Pasted image 20250723120438.png",
+    "Pasted image 20250723120338.png",
+    "Pasted image 20250723120132.png",
+    "Pasted image 20250723104316.png",
+    "Pasted image 20250723104235.png",
+    "Pasted image 20250723103930.png",
+    "Pasted image 20250723103919.png",
     "Kernel image and mini-uart.md",
+    "SPI (Serial Peripheral Interface).md",
+    "s-matyukevich.github.io/raspberry-pi-os/docs/lesson01/rpi-os.html.md",
     "s-matyukevich.github.io/raspberry-pi-os/docs/lesson01",
     "s-matyukevich.github.io/raspberry-pi-os/docs",
     "s-matyukevich.github.io/raspberry-pi-os",

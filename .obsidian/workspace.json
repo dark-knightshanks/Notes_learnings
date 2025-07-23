@@ -11,12 +11,14 @@
             "id": "4bda61994a72f1db",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250723120132.png"
+                "file": "SPI (Serial Peripheral Interface).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250723120132"
+              "icon": "lucide-file",
+              "title": "SPI (Serial Peripheral Interface)"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8098aa07c144e81d",
@@ -168,17 +171,17 @@
   },
   "active": "4bda61994a72f1db",
   "lastOpenFiles": [
-    "Pasted image 20250723121404.png",
+    "Kernel image and mini-uart.md",
     "SPI (Serial Peripheral Interface).md",
+    "Pasted image 20250723121404.png",
+    "Pasted image 20250723120132.png",
     "Pasted image 20250723103919.png",
     "Pasted image 20250723103930.png",
     "Pasted image 20250723104235.png",
     "Pasted image 20250723104316.png",
-    "Pasted image 20250723120132.png",
     "Pasted image 20250723120338.png",
     "Pasted image 20250723120438.png",
     "Pasted image 20250723121348.png",
-    "Kernel image and mini-uart.md",
     "s-matyukevich.github.io/raspberry-pi-os/docs/lesson01/rpi-os.html.md",
     "s-matyukevich.github.io/raspberry-pi-os/docs/lesson01",
     "s-matyukevich.github.io/raspberry-pi-os/docs",

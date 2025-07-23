@@ -30,3 +30,15 @@ So lets dive into each of these features and see how we can configure these regi
 Now for our NovaPi project we are going to use SPI for displaying SRA logo on the oled display using the above information. We are going to write drivers for the same. Now the question arises that we may have heard the term driver but are not sure about its exact meaning, so here is the definition of the driver :
 
 - What is a driver? — A hardware/device driver allows your computer to use devices that are attached to it.
+### GPIO
+
+Raspberry Pi 4b model  has five SPI interfaces of this type: SPI0, SPI3, SPI4, SPI5 & SPI6. It has two additional mini SPI interfaces (SPI1 and SPI2). We are going to use SPI0 which is the most commonly used SPI. The base address of SPI0 is at 0xFE204000. Since we are going to display an image on oled screen we do not expect a output from the display(slave),
+hence we are going to use only MOSI for data transfer. 
+
+The gpio(peripherals) present on the Pi(BCM 2711) have been assigned various purposes/tasks according to the mode(ALT0, ALT1 ...etc) that has been selected by the user. Hence we can use SPI0 using the gpio pins 7-11 in ALT0 or pins 35-39 in ALT0. So to keep it simple we will use pins 7-11. The following is the task assigned to each  gpio pin according to the bcm manual : 
+- GPIO7 -  SPI0_CE1_N (CS1)
+- GPIO8 -  SPI0_CE0_N (CS0)
+- GPIO9 -  SPI0_MISO
+- GPIO10 - SPI0_MOSI
+- GPIO11 -  SPI0_SCLK
+But as i mentioned we are just using the a single display(slave) with no MISO line we are going to not use GPIO9 as well as GPIO7 since we only have one target.
